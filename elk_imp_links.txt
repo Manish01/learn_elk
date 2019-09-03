@@ -1,0 +1,8 @@
+
+MUTATE FILTER PLUGIN IN LOGSTASH
+----------------------------------------------------------------------------------------------
+
+https://www.tutorialspoint.com/logstash/logstash_transforming_the_logs.html
+https://logz.io/blog/logstash-mutate-filter/
+https://www.elastic.co/guide/en/logstash/current/plugins-filters-mutate.html#plugins-filters-mutate-replace
+https://help.logit.io/en/articles/2753921-how-do-i-remove-fields-using-logstash-filters
