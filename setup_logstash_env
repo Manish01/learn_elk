@@ -1,0 +1,12 @@
+
+1. MAKE YOUR CHANGES IN CONF FILE
+-----------------------------------------
+/root/learn_pipeline/pipeline.conf
+
+2. START LOGSTASH PROCESS
+------------------------------------------
+/usr/share/logstash/bin/logstash -f /root/learn_pipeline/pipeline.conf
+
+3. SEND HTTP REQUEST TO LOGSTASH
+-------------------------------------------
+curl -X POST -H "Content-Type: application/json" -d '{"amount": 10, "quantity": "2"}' "192.168.21.19:8081"
